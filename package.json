@@ -1,0 +1,15 @@
+{
+  "name": "pdf_render_nodejs",
+  "version": "1.0.0",
+  "description": "PDF with Puppeteer",
+  "main": "index.js",
+    "scripts": {
+    "prod": "yarn start"
+  },
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.17.1",
+    "puppeteer": "^3.3.0"
+  }
+}

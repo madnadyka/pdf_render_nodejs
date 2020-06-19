@@ -1,0 +1,7 @@
+docker container stop pdf-render-nodejs
+docker container rm pdf-render-nodejs
+docker run --restart=always \
+           --shm-size=1gb\
+           --name pdf-render-nodejs\
+           -p 3000:3000 \
+           -it pdf-render-nodejs
